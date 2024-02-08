@@ -19,7 +19,7 @@ const AboutPage = () => {
         <div
           className="page-header page-header-big text-center"
           style={{
-            backgroundImage: 'url("assets/images/about-header-bg.jpg")',
+            backgroundImage: 'url("/src/assets/images/about-header-bg.jpg")',
           }}
         >
           <h1 className="page-title text-white">
@@ -75,12 +75,12 @@ const AboutPage = () => {
               <div className="col-lg-6 offset-lg-1">
                 <div className="about-images">
                   <img
-                    src="/assets/images/about/img-1.jpg"
+                    src="/src/assets/images/about/img-1.jpg"
                     alt
                     className="about-img-front"
                   />
                   <img
-                    src="/assets/images/about/img-2.jpg"
+                    src="/src/assets/images/about/img-2.jpg"
                     alt
                     className="about-img-back"
                   />
@@ -107,47 +107,74 @@ const AboutPage = () => {
                 <div className="row justify-content-center">
                   <div className="col-6 col-sm-4">
                     <a href="#" className="brand">
-                      <img src="/assets/images/brands/1.png" alt="Brand Name" />
+                      <img
+                        src="/src/assets/images/brands/1.png"
+                        alt="Brand Name"
+                      />
                     </a>
                   </div>
                   <div className="col-6 col-sm-4">
                     <a href="#" className="brand">
-                      <img src="/assets/images/brands/2.png" alt="Brand Name" />
+                      <img
+                        src="/src/assets/images/brands/2.png"
+                        alt="Brand Name"
+                      />
                     </a>
                   </div>
                   <div className="col-6 col-sm-4">
                     <a href="#" className="brand">
-                      <img src="/assets/images/brands/3.png" alt="Brand Name" />
+                      <img
+                        src="/src/assets/images/brands/3.png"
+                        alt="Brand Name"
+                      />
                     </a>
                   </div>
                   <div className="col-6 col-sm-4">
                     <a href="#" className="brand">
-                      <img src="/assets/images/brands/4.png" alt="Brand Name" />
+                      <img
+                        src="/src/assets/images/brands/4.png"
+                        alt="Brand Name"
+                      />
                     </a>
                   </div>
                   <div className="col-6 col-sm-4">
                     <a href="#" className="brand">
-                      <img src="/assets/images/brands/5.png" alt="Brand Name" />
+                      <img
+                        src="/src/assets/images/brands/5.png"
+                        alt="Brand Name"
+                      />
                     </a>
                   </div>
                   <div className="col-6 col-sm-4">
                     <a href="#" className="brand">
-                      <img src="/assets/images/brands/6.png" alt="Brand Name" />
+                      <img
+                        src="/src/assets/images/brands/6.png"
+                        alt="Brand Name"
+                      />
                     </a>
                   </div>
                   <div className="col-6 col-sm-4">
                     <a href="#" className="brand">
-                      <img src="/assets/images/brands/7.png" alt="Brand Name" />
+                      <img
+                        src="/src/assets/images/brands/7.png"
+                        alt="Brand Name"
+                      />
                     </a>
                   </div>
                   <div className="col-6 col-sm-4">
                     <a href="#" className="brand">
-                      <img src="/assets/images/brands/8.png" alt="Brand Name" />
+                      <img
+                        src="/src/assets/images/brands/8.png"
+                        alt="Brand Name"
+                      />
                     </a>
                   </div>
                   <div className="col-6 col-sm-4">
                     <a href="#" className="brand">
-                      <img src="/assets/images/brands/9.png" alt="Brand Name" />
+                      <img
+                        src="/src/assets/images/brands/9.png"
+                        alt="Brand Name"
+                      />
                     </a>
                   </div>
                 </div>

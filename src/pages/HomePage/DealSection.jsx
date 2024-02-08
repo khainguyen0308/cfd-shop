@@ -22,7 +22,7 @@ const DealSection = ({ dealProducts }) => {
             className="deal"
             style={{
               backgroundImage:
-                'url("assets/images/demos/demo-3/deal/bg-1.jpg")',
+                'url("/src/assets/images/demos/demo-3/deal/bg-1.jpg")',
             }}
           >
             <div className="deal-top">

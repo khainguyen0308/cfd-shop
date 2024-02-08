@@ -5,7 +5,9 @@ const BlogPage = () => {
     <main className="main">
       <div
         className="page-header text-center"
-        style={{ backgroundImage: 'url("assets/images/page-header-bg.jpg")' }}
+        style={{
+          backgroundImage: 'url("/src/assets/images/page-header-bg.jpg")',
+        }}
       >
         <div className="container">
           <h1 className="page-title">Blog</h1>
@@ -33,7 +35,7 @@ const BlogPage = () => {
                     <figure className="entry-media">
                       <a href="blog-single.html">
                         <img
-                          src="assets/images/blog/grid/3cols/post-1.jpg"
+                          src="/src/assets/images/blog/grid/3cols/post-1.jpg"
                           alt="image desc"
                         />
                       </a>
@@ -70,7 +72,7 @@ const BlogPage = () => {
                     <figure className="entry-media">
                       <a href="blog-single.html">
                         <img
-                          src="assets/images/blog/grid/3cols/post-2.jpg"
+                          src="/src/assets/images/blog/grid/3cols/post-2.jpg"
                           alt="image desc"
                         />
                       </a>
@@ -107,7 +109,7 @@ const BlogPage = () => {
                     <figure className="entry-media">
                       <a href="blog-single.html">
                         <img
-                          src="assets/images/blog/grid/3cols/post-5.jpg"
+                          src="/src/assets/images/blog/grid/3cols/post-5.jpg"
                           alt="image desc"
                         />
                       </a>
@@ -144,7 +146,7 @@ const BlogPage = () => {
                     <figure className="entry-media">
                       <a href="blog-single.html">
                         <img
-                          src="assets/images/blog/grid/3cols/post-6.jpg"
+                          src="/src/assets/images/blog/grid/3cols/post-6.jpg"
                           alt="image desc"
                         />
                       </a>
@@ -181,7 +183,7 @@ const BlogPage = () => {
                     <figure className="entry-media">
                       <a href="blog-single.html">
                         <img
-                          src="assets/images/blog/grid/3cols/post-7.jpg"
+                          src="/src/assets/images/blog/grid/3cols/post-7.jpg"
                           alt="image desc"
                         />
                       </a>
@@ -218,7 +220,7 @@ const BlogPage = () => {
                     <figure className="entry-media">
                       <a href="blog-single.html">
                         <img
-                          src="assets/images/blog/grid/3cols/post-8.jpg"
+                          src="/src/assets/images/blog/grid/3cols/post-8.jpg"
                           alt="image desc"
                         />
                       </a>
@@ -350,7 +352,7 @@ const BlogPage = () => {
                       <figure>
                         <a href="#">
                           <img
-                            src="assets/images/blog/sidebar/post-1.jpg"
+                            src="/src/assets/images/blog/sidebar/post-1.jpg"
                             alt="post"
                           />
                         </a>
@@ -366,7 +368,7 @@ const BlogPage = () => {
                       <figure>
                         <a href="#">
                           <img
-                            src="assets/images/blog/sidebar/post-2.jpg"
+                            src="/src/assets/images/blog/sidebar/post-2.jpg"
                             alt="post"
                           />
                         </a>
@@ -382,7 +384,7 @@ const BlogPage = () => {
                       <figure>
                         <a href="#">
                           <img
-                            src="assets/images/blog/sidebar/post-3.jpg"
+                            src="/src/assets/images/blog/sidebar/post-3.jpg"
                             alt="post"
                           />
                         </a>
@@ -398,7 +400,7 @@ const BlogPage = () => {
                       <figure>
                         <a href="#">
                           <img
-                            src="assets/images/blog/sidebar/post-4.jpg"
+                            src="/src/assets/images/blog/sidebar/post-4.jpg"
                             alt="post"
                           />
                         </a>
@@ -419,7 +421,7 @@ const BlogPage = () => {
                   <div className="banner-sidebar banner-overlay">
                     <a href="#">
                       <img
-                        src="assets/images/blog/sidebar/banner.jpg"
+                        src="/src/assets/images/blog/sidebar/banner.jpg"
                         alt="banner"
                       />
                     </a>

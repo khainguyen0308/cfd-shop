@@ -191,7 +191,7 @@ const FeaturedSection = ({
                 <figure className="product-media">
                   <a href="product-detail.html">
                     <img
-                      src="/assets/images/demos/demo-3/products/product-11.jpg"
+                      src="/src/assets/images/demos/demo-3/products/product-11.jpg"
                       alt="Product image"
                       className="product-image"
                     />
@@ -233,7 +233,7 @@ const FeaturedSection = ({
                 <figure className="product-media">
                   <a href="product-detail.html">
                     <img
-                      src="/assets/images/demos/demo-3/products/product-12.jpg"
+                      src="/src/assets/images/demos/demo-3/products/product-12.jpg"
                       alt="Product image"
                       className="product-image"
                     />
@@ -278,7 +278,7 @@ const FeaturedSection = ({
                   </span>
                   <a href="product-detail.html">
                     <img
-                      src="/assets/images/demos/demo-3/products/product-13.jpg"
+                      src="/src/assets/images/demos/demo-3/products/product-13.jpg"
                       alt="Product image"
                       className="product-image"
                     />
@@ -323,7 +323,7 @@ const FeaturedSection = ({
                   </span>
                   <a href="product-detail.html">
                     <img
-                      src="/assets/images/demos/demo-3/products/product-14.jpg"
+                      src="/src/assets/images/demos/demo-3/products/product-14.jpg"
                       alt="Product image"
                       className="product-image"
                     />
@@ -366,7 +366,7 @@ const FeaturedSection = ({
                 <figure className="product-media">
                   <a href="product-detail.html">
                     <img
-                      src="/assets/images/demos/demo-3/products/product-15.jpg"
+                      src="/src/assets/images/demos/demo-3/products/product-15.jpg"
                       alt="Product image"
                       className="product-image"
                     />
@@ -408,7 +408,7 @@ const FeaturedSection = ({
                 <figure className="product-media">
                   <a href="product-detail.html">
                     <img
-                      src="/assets/images/demos/demo-3/products/product-11.jpg"
+                      src="/src/assets/images/demos/demo-3/products/product-11.jpg"
                       alt="Product image"
                       className="product-image"
                     />
@@ -489,7 +489,7 @@ const FeaturedSection = ({
                 </span>
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-13.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-13.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -531,7 +531,7 @@ const FeaturedSection = ({
               <figure className="product-media">
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-12.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-12.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -576,7 +576,7 @@ const FeaturedSection = ({
                 </span>
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-14.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-14.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -619,7 +619,7 @@ const FeaturedSection = ({
               <figure className="product-media">
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-15.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-15.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -661,7 +661,7 @@ const FeaturedSection = ({
               <figure className="product-media">
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-11.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-11.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -736,7 +736,7 @@ const FeaturedSection = ({
               <figure className="product-media">
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-15.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-15.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -778,7 +778,7 @@ const FeaturedSection = ({
               <figure className="product-media">
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-11.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-11.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -821,7 +821,7 @@ const FeaturedSection = ({
                 </span>
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-13.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-13.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -863,7 +863,7 @@ const FeaturedSection = ({
               <figure className="product-media">
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-12.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-12.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -908,7 +908,7 @@ const FeaturedSection = ({
                 </span>
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-14.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-14.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -986,7 +986,7 @@ const FeaturedSection = ({
               <figure className="product-media">
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-11.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-11.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -1026,7 +1026,7 @@ const FeaturedSection = ({
               <figure className="product-media">
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-12.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-12.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -1071,7 +1071,7 @@ const FeaturedSection = ({
                 </span>
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-13.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-13.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -1113,7 +1113,7 @@ const FeaturedSection = ({
               <figure className="product-media">
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-15.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-15.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -1155,7 +1155,7 @@ const FeaturedSection = ({
               <figure className="product-media">
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-11.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-11.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -1198,7 +1198,7 @@ const FeaturedSection = ({
                 </span>
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-14.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-14.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -1279,7 +1279,7 @@ const FeaturedSection = ({
                 </span>
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-14.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-14.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -1322,7 +1322,7 @@ const FeaturedSection = ({
               <figure className="product-media">
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-11.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-11.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -1362,7 +1362,7 @@ const FeaturedSection = ({
               <figure className="product-media">
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-12.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-12.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -1407,7 +1407,7 @@ const FeaturedSection = ({
                 </span>
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-13.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-13.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -1484,7 +1484,7 @@ const FeaturedSection = ({
               <figure className="product-media">
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-11.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-11.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -1524,7 +1524,7 @@ const FeaturedSection = ({
               <figure className="product-media">
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-15.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-15.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -1566,7 +1566,7 @@ const FeaturedSection = ({
               <figure className="product-media">
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-11.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-11.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -1606,7 +1606,7 @@ const FeaturedSection = ({
               <figure className="product-media">
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-12.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-12.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -1651,7 +1651,7 @@ const FeaturedSection = ({
                 </span>
                 <a href="product-detail.html">
                   <img
-                    src="/assets/images/demos/demo-3/products/product-13.jpg"
+                    src="/src/assets/images/demos/demo-3/products/product-13.jpg"
                     alt="Product image"
                     className="product-image"
                   />
