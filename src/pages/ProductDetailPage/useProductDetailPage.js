@@ -88,6 +88,7 @@ const useProductDetailPage = () => {
     productName: name,
     productDetailTopProps,
     productDetailTabProps,
+    handleAddToWishlist,
   };
 };
 

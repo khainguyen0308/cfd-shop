@@ -68,7 +68,7 @@ const HeaderTop = () => {
                 <li>
                   <Link to={PATHS.DASHBOARD.INDEX} className="top-link-menu">
                     <i className="icon-user" />
-                    {profile?.firstname || "CFD"}
+                    {profile?.firstName || "CFD"}
                   </Link>
                   <ul>
                     <li>
