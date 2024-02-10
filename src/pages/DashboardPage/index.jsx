@@ -4,11 +4,21 @@ import Orders from "./Orders";
 import Adresses from "./Adresses";
 import Wishlist from "./Wishlist";
 import Breadcrumb from "../../components/Breadcrumb";
-import { Link, NavLink, Outlet } from "react-router-dom";
+import { Link, NavLink, Outlet, useNavigate } from "react-router-dom";
 import PATHS from "../../constants/paths";
 import cn from "../../utils/cn";
+import { useDispatch } from "react-redux";
+import { handleLogout } from "../../store/reducers/authReducer";
 
 const DashboardPage = () => {
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const onLogOut = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    dispatch(handleLogout());
+    navigate(PATHS.HOME);
+  };
   return (
     <main className="main">
       <div
@@ -70,7 +80,13 @@ const DashboardPage = () => {
                     </NavLink>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a
+                      className="nav-link"
+                      href="#"
+                      onClick={(e) => {
+                        onLogOut(e);
+                      }}
+                    >
                       Sign Out
                     </a>
                   </li>
