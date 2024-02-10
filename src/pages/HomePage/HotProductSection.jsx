@@ -173,7 +173,7 @@ const HotProductSection = ({
               <figure className="product-media">
                 <a href="product-detail.html">
                   <img
-                    src="/src/assets/images/demos/demo-3/products/product-4.jpg"
+                    src="/assets/images/demos/demo-3/products/product-4.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -215,7 +215,7 @@ const HotProductSection = ({
               <figure className="product-media">
                 <a href="product-detail.html">
                   <img
-                    src="/src/assets/images/demos/demo-3/products/product-1.jpg"
+                    src="/assets/images/demos/demo-3/products/product-1.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -257,7 +257,7 @@ const HotProductSection = ({
               <figure className="product-media">
                 <a href="product-detail.html">
                   <img
-                    src="/src/assets/images/demos/demo-3/products/product-3.jpg"
+                    src="/assets/images/demos/demo-3/products/product-3.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -303,12 +303,12 @@ const HotProductSection = ({
                 </span>
                 <a href="product-detail.html">
                   <img
-                    src="/src/assets/images/demos/demo-3/products/product-2.jpg"
+                    src="/assets/images/demos/demo-3/products/product-2.jpg"
                     alt="Product image"
                     className="product-image"
                   />
                   <img
-                    src="/src/assets/images/demos/demo-3/products/product-2-2.jpg"
+                    src="/assets/images/demos/demo-3/products/product-2-2.jpg"
                     alt="Product image"
                     className="product-image-hover"
                   />
@@ -382,7 +382,7 @@ const HotProductSection = ({
               <figure className="product-media">
                 <a href="product-detail.html">
                   <img
-                    src="/src/assets/images/demos/demo-3/products/product-3.jpg"
+                    src="/assets/images/demos/demo-3/products/product-3.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -425,7 +425,7 @@ const HotProductSection = ({
               <figure className="product-media">
                 <a href="product-detail.html">
                   <img
-                    src="/src/assets/images/demos/demo-3/products/product-1.jpg"
+                    src="/assets/images/demos/demo-3/products/product-1.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -467,7 +467,7 @@ const HotProductSection = ({
               <figure className="product-media">
                 <a href="product-detail.html">
                   <img
-                    src="/src/assets/images/demos/demo-3/products/product-4.jpg"
+                    src="/assets/images/demos/demo-3/products/product-4.jpg"
                     alt="Product image"
                     className="product-image"
                   />
@@ -512,12 +512,12 @@ const HotProductSection = ({
                 </span>
                 <a href="product-detail.html">
                   <img
-                    src="/src/assets/images/demos/demo-3/products/product-2.jpg"
+                    src="/assets/images/demos/demo-3/products/product-2.jpg"
                     alt="Product image"
                     className="product-image"
                   />
                   <img
-                    src="/src/assets/images/demos/demo-3/products/product-2-2.jpg"
+                    src="/assets/images/demos/demo-3/products/product-2-2.jpg"
                     alt="Product image"
                     className="product-image-hover"
                   />
@@ -559,7 +559,7 @@ const HotProductSection = ({
               <figure className="product-media">
                 <a href="product-detail.html">
                   <img
-                    src="/src/assets/images/demos/demo-3/products/product-1.jpg"
+                    src="/assets/images/demos/demo-3/products/product-1.jpg"
                     alt="Product image"
                     className="product-image"
                   />

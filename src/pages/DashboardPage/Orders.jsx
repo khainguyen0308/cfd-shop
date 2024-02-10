@@ -47,7 +47,7 @@ const Orders = () => {
                 <figure className="product-media">
                   <a href="#">
                     <img
-                      src="/src/assets/images/demos/demo-3/products/product-3.jpg"
+                      src="/assets/images/demos/demo-3/products/product-3.jpg"
                       alt="Product image"
                     />
                   </a>
@@ -67,7 +67,7 @@ const Orders = () => {
                 <figure className="product-media">
                   <a href="#">
                     <img
-                      src="/src/assets/images/demos/demo-3/products/product-2.jpg"
+                      src="/assets/images/demos/demo-3/products/product-2.jpg"
                       alt="Product image"
                     />
                   </a>

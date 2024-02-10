@@ -34,7 +34,7 @@ const ContactPage = () => {
         <div
           className="page-header page-header-big text-center"
           style={{
-            backgroundImage: 'url("/src/assets/images/contact-header-bg.jpg")',
+            backgroundImage: 'url("/assets/images/contact-header-bg.jpg")',
           }}
         >
           <h1 className="page-title text-white">
@@ -189,7 +189,7 @@ const ContactPage = () => {
                     <div className="col-sm-5 col-xl-6">
                       <figure className="store-media mb-2 mb-lg-0">
                         <img
-                          src="/src/assets/images/stores/img-1.jpg"
+                          src="/assets/images/stores/img-1.jpg"
                           alt="image"
                         />
                       </figure>
@@ -219,7 +219,7 @@ const ContactPage = () => {
                     <div className="col-sm-5 col-xl-6">
                       <figure className="store-media mb-2 mb-lg-0">
                         <img
-                          src="/src/assets/images/stores/img-2.jpg"
+                          src="/assets/images/stores/img-2.jpg"
                           alt="image"
                         />
                       </figure>

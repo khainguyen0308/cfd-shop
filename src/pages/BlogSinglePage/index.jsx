@@ -26,7 +26,7 @@ const BlogSinglePage = () => {
                 <div className="entry-body">
                   <figure className="entry-media">
                     <img
-                      src="/src/assets/images/blog/single/1.jpg"
+                      src="/assets/images/blog/single/1.jpg"
                       alt="image desc"
                     />
                   </figure>
@@ -75,7 +75,7 @@ const BlogSinglePage = () => {
                     </p>
                     <div className="pb-1" />
                     <img
-                      src="/src/assets/images/blog/single/fullwidth-sidebar/5.jpg"
+                      src="/assets/images/blog/single/fullwidth-sidebar/5.jpg"
                       alt="image"
                     />
                     <div className="pb-1" />
@@ -209,7 +209,7 @@ const BlogSinglePage = () => {
                     <figure className="entry-media">
                       <a href="blog-single.html">
                         <img
-                          src="/src/assets/images/blog/grid/3cols/post-1.jpg"
+                          src="/assets/images/blog/grid/3cols/post-1.jpg"
                           alt="image desc"
                         />
                       </a>
@@ -234,7 +234,7 @@ const BlogSinglePage = () => {
                     <figure className="entry-media">
                       <a href="blog-single.html">
                         <img
-                          src="/src/assets/images/blog/grid/3cols/post-2.jpg"
+                          src="/assets/images/blog/grid/3cols/post-2.jpg"
                           alt="image desc"
                         />
                       </a>
@@ -257,7 +257,7 @@ const BlogSinglePage = () => {
                     <figure className="entry-media">
                       <a href="blog-single.html">
                         <img
-                          src="/src/assets/images/blog/grid/3cols/post-3.jpg"
+                          src="/assets/images/blog/grid/3cols/post-3.jpg"
                           alt="image desc"
                         />
                       </a>
@@ -282,7 +282,7 @@ const BlogSinglePage = () => {
                     <figure className="entry-media">
                       <a href="blog-single.html">
                         <img
-                          src="/src/assets/images/blog/grid/3cols/post-4.jpg"
+                          src="/assets/images/blog/grid/3cols/post-4.jpg"
                           alt="image desc"
                         />
                       </a>
@@ -313,7 +313,7 @@ const BlogSinglePage = () => {
                       <figure className="comment-media">
                         <a href="#">
                           <img
-                            src="/src/assets/images/blog/comments/1.jpg"
+                            src="/assets/images/blog/comments/1.jpg"
                             alt="User name"
                           />
                         </a>
@@ -346,7 +346,7 @@ const BlogSinglePage = () => {
                           <figure className="comment-media">
                             <a href="#">
                               <img
-                                src="/src/assets/images/blog/comments/2.jpg"
+                                src="/assets/images/blog/comments/2.jpg"
                                 alt="User name"
                               />
                             </a>
@@ -376,7 +376,7 @@ const BlogSinglePage = () => {
                       <figure className="comment-media">
                         <a href="#">
                           <img
-                            src="/src/assets/images/blog/comments/3.jpg"
+                            src="/assets/images/blog/comments/3.jpg"
                             alt="User name"
                           />
                         </a>
@@ -522,7 +522,7 @@ const BlogSinglePage = () => {
                       <figure>
                         <a href="#">
                           <img
-                            src="/src/assets/images/blog/sidebar/post-1.jpg"
+                            src="/assets/images/blog/sidebar/post-1.jpg"
                             alt="post"
                           />
                         </a>
@@ -538,7 +538,7 @@ const BlogSinglePage = () => {
                       <figure>
                         <a href="#">
                           <img
-                            src="/src/assets/images/blog/sidebar/post-2.jpg"
+                            src="/assets/images/blog/sidebar/post-2.jpg"
                             alt="post"
                           />
                         </a>
@@ -554,7 +554,7 @@ const BlogSinglePage = () => {
                       <figure>
                         <a href="#">
                           <img
-                            src="/src/assets/images/blog/sidebar/post-3.jpg"
+                            src="/assets/images/blog/sidebar/post-3.jpg"
                             alt="post"
                           />
                         </a>
@@ -570,7 +570,7 @@ const BlogSinglePage = () => {
                       <figure>
                         <a href="#">
                           <img
-                            src="/src/assets/images/blog/sidebar/post-4.jpg"
+                            src="/assets/images/blog/sidebar/post-4.jpg"
                             alt="post"
                           />
                         </a>
@@ -591,7 +591,7 @@ const BlogSinglePage = () => {
                   <div className="banner-sidebar">
                     <a href="#">
                       <img
-                        src="/src/assets/images/blog/sidebar/banner.jpg"
+                        src="/assets/images/blog/sidebar/banner.jpg"
                         alt="banner"
                       />
                     </a>

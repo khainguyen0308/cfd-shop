@@ -28,7 +28,7 @@ import Adresses from "./pages/DashboardPage/Adresses";
 import WishList from "./pages/DashboardPage/Wishlist";
 import CheckoutPage from "./pages/CheckoutPage";
 import CheckoutSuccessPage from "./pages/CheckoutSuccessPage";
-import "./assets/style.css";
+import "../public/assets/style.css";
 import tokenMethod from "./utils/token";
 import { handleGetProfile } from "./store/reducers/authReducer";
 import { handleGetCart } from "./store/reducers/cartReducer";

@@ -6,7 +6,7 @@ const ReturnsPage = () => {
       <div
         className="page-header text-center"
         style={{
-          backgroundImage: 'url("/src/assets/images/page-header-bg.jpg")',
+          backgroundImage: 'url("/assets/images/page-header-bg.jpg")',
         }}
       >
         <div className="container">
@@ -107,7 +107,7 @@ const ReturnsPage = () => {
       <div
         className="cta cta-display bg-image pt-4 pb-4"
         style={{
-          backgroundImage: "url(/src/assets/images/backgrounds/cta/bg-7.jpg)",
+          backgroundImage: "url(/assets/images/backgrounds/cta/bg-7.jpg)",
         }}
       >
         <div className="container">
