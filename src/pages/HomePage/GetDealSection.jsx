@@ -1,7 +1,5 @@
-import React from "react";
 import { useForm } from "react-hook-form";
 import { MESSAGE, REGREX } from "../../constants/validate";
-import validate from "./../../utils/validate";
 
 const GetDealSection = ({ handleSubscribeDeal }) => {
   const {

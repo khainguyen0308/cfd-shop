@@ -35,14 +35,6 @@ import { handleGetCart } from "./store/reducers/cartReducer";
 import ChangePassword from "./pages/DashboardPage/ChangePassword";
 
 function App() {
-  // const counter = useSelector((state) => state.counter);
-  // const dog = useSelector((state) => state.dog);
-  // // console.log("dog", dog);
-  // const dispatch = useDispatch();
-  // // console.log("globalState", globalState);
-  // useEffect(() => {
-  //   dispatch(fetchRandomDog());
-  // }, []);
   const dispatch = useDispatch();
   useEffect(() => {
     // setup antd message
@@ -99,12 +91,6 @@ function App() {
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </BrowserRouter>
-      {/* <div>
-        <h1>Counter: {counter}</h1>
-        <button onClick={() => dispatch(increment(10))}>Increment</button>
-        <button onClick={() => dispatch(decrement())}>Decrement</button>
-        <img src={dog.message} alt="" />
-      </div> */}
     </>
   );
 }

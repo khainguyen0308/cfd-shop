@@ -1,4 +1,3 @@
-import React from "react";
 import Select from "../../components/Select";
 import { SORT_OPTIONS } from "../../constants/general";
 import Input from "../../components/Input";

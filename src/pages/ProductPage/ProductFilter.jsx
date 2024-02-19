@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Checkbox from "../../components/Checkbox";
 
 const ProductFilter = ({
@@ -8,8 +8,6 @@ const ProductFilter = ({
   handleCateFilterChange,
   handlePriceFilterChange,
 }) => {
-  console.log("categories", categories);
-  console.log("activeCategory", activeCategory);
   useEffect(() => {
     // Slider For category pages / filter price
     if (typeof noUiSlider === "object") {

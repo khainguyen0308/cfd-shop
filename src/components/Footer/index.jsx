@@ -1,8 +1,16 @@
 import React from "react";
 import PATHS from "../../constants/paths";
 import { Link } from "react-router-dom";
+import useQuery from "../../hooks/useQuery";
+import { pageService } from "../../services/pageService";
 
 const Footer = () => {
+  const { data: footerData } = useQuery(() =>
+    pageService.getPageDataByName("footer")
+  );
+
+  const { data } = footerData || {};
+
   return (
     <footer className="footer">
       <div className="footer-middle">
@@ -16,13 +24,10 @@ const Footer = () => {
                   alt="Footer Logo"
                   width={120}
                 />
-                <p>
-                  Praesent dapibus, neque id cursus ucibus, tortor neque egestas
-                  augue, eu vulputate magna eros eu erat.{" "}
-                </p>
+                <p>{data?.description}</p>
                 <div className="widget-call">
                   <i className="icon-phone" /> Got Question? Call us 24/7{" "}
-                  <a href="tel:#">098 9596 912</a>
+                  <a href="tel:#">{data?.hotline}</a>
                 </div>
               </div>
             </div>
@@ -69,16 +74,16 @@ const Footer = () => {
                 <h4 className="widget-title">My Account</h4>
                 <ul className="widget-list">
                   <li>
-                    <a href={PATHS.DASHBOARD}>Account Details</a>
+                    <Link to={PATHS.DASHBOARD.INDEX}>Account Details</Link>
                   </li>
                   <li>
-                    <a href="cart.html">View Cart</a>
+                    <Link to={PATHS.CART}>View Cart</Link>
                   </li>
                   <li>
-                    <a href={PATHS.DASHBOARD}>My Wishlist</a>
+                    <Link to={PATHS.DASHBOARD.WISHLIST}>My Wishlist</Link>
                   </li>
                   <li>
-                    <a href={PATHS.DASHBOARD}>Track My Order</a>
+                    <Link to={PATHS.DASHBOARD.ORDERS}>Track My Order</Link>
                   </li>
                 </ul>
               </div>

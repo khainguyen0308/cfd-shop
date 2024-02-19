@@ -1,11 +1,10 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { useForm } from "react-hook-form";
 import { useSelector } from "react-redux";
 import { authService } from "../../services/authService";
 import { message } from "antd";
 import Input from "../../components/Input";
 import { MESSAGE } from "../../constants/validate";
-import validate from "./../../utils/validate";
 
 const ChangePassword = () => {
   const { profile } = useSelector((state) => state.auth);

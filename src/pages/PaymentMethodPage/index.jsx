@@ -1,5 +1,3 @@
-import React from "react";
-
 const PaymentMethodPage = () => {
   return (
     <main className="main">

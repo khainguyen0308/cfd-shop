@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { TABS_DETAIL } from "../../constants/tabs";
 import cn from "../../utils/cn";
 import { formatDate, formatNumberToPercent } from "../../utils/format";

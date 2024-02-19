@@ -1,11 +1,10 @@
-import React, { useRef } from "react";
 import PATHS from "../../constants/paths";
 import { Link } from "react-router-dom";
 import { formatCurrency } from "../../utils/format";
 import QuantityInput from "../../components/QuantityInput";
 import styled from "styled-components";
 import ProductColor from "../../components/ProductColor";
-import { useSelector } from "react-redux";
+
 const ProductTitle = styled.h3`
   display: flex !important;
   flex-direction: column;

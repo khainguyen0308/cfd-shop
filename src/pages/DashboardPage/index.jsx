@@ -1,12 +1,6 @@
-import React from "react";
-import MyInfo from "./MyInfo";
-import Orders from "./Orders";
-import Adresses from "./Adresses";
-import Wishlist from "./Wishlist";
 import Breadcrumb from "../../components/Breadcrumb";
 import { Link, NavLink, Outlet, useNavigate } from "react-router-dom";
 import PATHS from "../../constants/paths";
-import cn from "../../utils/cn";
 import { useDispatch } from "react-redux";
 import { handleLogout } from "../../store/reducers/authReducer";
 

@@ -1,8 +1,6 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import PATHS from "../../constants/paths";
 import { orderService } from "../../services/orderService";
-import { message } from "antd";
 
 const Orders = () => {
   const products = async () => {

@@ -1,4 +1,3 @@
-import React from "react";
 import { formatCurrency } from "../../utils/format";
 import { Link, useNavigate } from "react-router-dom";
 import PATHS from "../../constants/paths";
@@ -13,8 +12,8 @@ const CartSummary = ({
   typeShip,
   handleUpdateShipping,
 }) => {
-  console.log("product", product);
-  console.log("total", total);
+  // console.log("product", product);
+  // console.log("total", total);
   const navigate = useNavigate();
   const _onProceedCheckout = (e) => {
     e?.preventDefault();

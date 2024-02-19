@@ -24,7 +24,7 @@ const tokenMethod = {
     return cookieToken.get();
   },
   set: (token) => {
-    console.log("token", token);
+    // console.log("token", token);
     // localToken.set(token)
     cookieToken.set(token);
   },

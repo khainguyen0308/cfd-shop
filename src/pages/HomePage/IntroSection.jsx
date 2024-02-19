@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import owlCarousels from "../../utils/owlCarousels";
 import PATHS from "../../constants/paths";
 import { Link } from "react-router-dom";

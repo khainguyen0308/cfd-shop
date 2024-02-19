@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useRef } from "react";
 import { useParams } from "react-router-dom";
 import { productService } from "../../services/productService";
 import useQuery from "../../hooks/useQuery";

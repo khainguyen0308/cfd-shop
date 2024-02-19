@@ -1,9 +1,6 @@
 import PATHS from "../../constants/paths";
 import { Link } from "react-router-dom";
-import { useMainContext } from "../../context/MainContext";
-import { useEffect } from "react";
 import { MenuStyled } from "../StyledComponents";
-import { useSelector } from "react-redux";
 import useHeaderMiddle from "./useHeaderMiddle";
 import { formatCurrency } from "./../../utils/format";
 import ProductColor from "../ProductColor";
@@ -95,7 +92,7 @@ const HeaderMiddle = () => {
           </MenuStyled>
         </nav>
         <div className="header-right">
-          <div className="header-search">
+          {/* <div className="header-search">
             <a href="#" className="search-toggle" role="button" title="Search">
               <i className="icon-search" />
             </a>
@@ -114,7 +111,7 @@ const HeaderMiddle = () => {
                 />
               </div>
             </form>
-          </div>
+          </div> */}
           <div className="dropdown cart-dropdown">
             <Link
               to={PATHS.CART}
@@ -132,7 +129,7 @@ const HeaderMiddle = () => {
               <DropDownContainer className="dropdown-cart-products">
                 {products?.length > 0 &&
                   products?.map((product, index) => {
-                    const { id, slug, name, quantity, price, variant, images } =
+                    const { slug, name, quantity, price, variant, images } =
                       product;
                     const detailPath = PATHS.PRODUCT.INDEX + `/${slug}`;
 

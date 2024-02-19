@@ -1,4 +1,3 @@
-import React from "react";
 import ProductImageZoom from "../../components/ProductImageZoom";
 import { formatNumberToPercent } from "../../utils/format";
 import { formatCurrency } from "./../../utils/format";
@@ -73,13 +72,7 @@ const ProductDetailTop = ({
             <div
               className="product-content"
               dangerouslySetInnerHTML={{ __html: description }}
-            >
-              {/* <p>
-                Sed egestas, ante et vulputate volutpat, eros pede semper est,
-                vitae luctus metus libero eu augue. Morbi purus libero, faucibus
-                adipiscing. Sed lectus.{" "}
-              </p> */}
-            </div>
+            ></div>
             <div className="details-filter-row details-row-size">
               <label>Color:</label>
               <ProductColor ref={colorRef} colors={color} />

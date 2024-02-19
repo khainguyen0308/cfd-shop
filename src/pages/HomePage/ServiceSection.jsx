@@ -1,5 +1,3 @@
-import React from "react";
-
 const ServiceSection = ({ services }) => {
   const { shipping, return: returnService, sale, support } = services || {};
   return (

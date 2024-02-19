@@ -1,12 +1,9 @@
-import React, { useEffect } from "react";
 import ProductDetailTab from "./ProductDetailTab";
 import ProductDetailTop from "./ProductDetailTop";
 import Breadcrumb from "../../components/Breadcrumb";
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import PATHS from "../../constants/paths";
 import useProductDetailPage from "./useProductDetailPage";
-import useQuery from "../../hooks/useQuery";
-import { productService } from "../../services/productService";
 
 const ProductDetailPage = () => {
   const { productName, productDetailTopProps, productDetailTabProps } =

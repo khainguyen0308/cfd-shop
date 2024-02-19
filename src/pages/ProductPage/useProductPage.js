@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import queryString from "query-string";
 import { useLocation, useSearchParams } from "react-router-dom";
 import useMutation from "./../../hooks/useMutation";

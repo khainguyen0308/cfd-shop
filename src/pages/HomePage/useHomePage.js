@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import useQuery from "../../hooks/useQuery";
 import { productService } from "../../services/productService";
 import { pageService } from "../../services/pageService";

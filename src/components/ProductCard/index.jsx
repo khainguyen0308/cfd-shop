@@ -13,7 +13,6 @@ import {
 } from "../../store/reducers/authReducer";
 import { MODAL_TYPES } from "../../constants/general";
 import useProductDetailPage from "../../pages/ProductDetailPage/useProductDetailPage";
-import { authService } from "../../services/authService";
 const ImageWrapper = styled.div`
   width: 100%;
   height: 315px;

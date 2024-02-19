@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { orderService } from "../../services/orderService";
 import { useDispatch, useSelector } from "react-redux";
 import {

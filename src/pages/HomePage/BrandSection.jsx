@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import owlCarousels from "../../utils/owlCarousels";
 
 const BrandSection = ({ brands }) => {
@@ -43,24 +43,6 @@ const BrandSection = ({ brands }) => {
               </a>
             );
           })}
-          {/* <a href="#" className="brand">
-          <img src="/assets/images/brands/1.png" alt="Brand Name" />
-        </a>
-        <a href="#" className="brand">
-          <img src="/assets/images/brands/2.png" alt="Brand Name" />
-        </a>
-        <a href="#" className="brand">
-          <img src="/assets/images/brands/3.png" alt="Brand Name" />
-        </a>
-        <a href="#" className="brand">
-          <img src="/assets/images/brands/4.png" alt="Brand Name" />
-        </a>
-        <a href="#" className="brand">
-          <img src="/assets/images/brands/5.png" alt="Brand Name" />
-        </a>
-        <a href="#" className="brand">
-          <img src="/assets/images/brands/6.png" alt="Brand Name" />
-        </a> */}
         </div>
       )}
     </div>

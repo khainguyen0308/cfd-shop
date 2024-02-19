@@ -1,5 +1,4 @@
 import { Skeleton } from "antd";
-import React from "react";
 import styled from "styled-components";
 import ProductCard from "../../components/ProductCard";
 const ProductSkeletonStyle = styled.div`
